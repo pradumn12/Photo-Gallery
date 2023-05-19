@@ -1,0 +1,218 @@
+/* Responsiveness on width: 660 */
+@media only screen and (max-width:660px){
+    *{
+        max-width:100%;
+    }
+    .pic-container{
+
+    /* border:2px solid yellow; */
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(6,1fr);
+    gap:0;
+
+    grid-template-areas:
+    "frame-1 frame-2"
+    "frame-3 frame-4"
+    "frame-5 frame-6"
+    "frame-7 frame-8"
+    "frame-9 frame-10"
+    "frame-11 frame-12"
+}
+#pic-01{
+     grid-area:frame-1;
+    
+}
+
+#pic-02{
+     grid-area:frame-2;
+    
+}
+
+#pic-03{
+     grid-area:frame-3;
+    
+}
+
+#pic-04{
+     grid-area:frame-4;
+    
+}
+
+#pic-05{
+     grid-area:frame-5;
+    
+}
+
+#pic-06{
+     grid-area:frame-6;
+    
+}
+
+#pic-07{
+     grid-area:frame-7;
+    
+}
+
+#pic-08{
+     grid-area:frame-8;
+    
+}
+
+#pic-09{
+     grid-area:frame-9;
+    
+}
+
+#pic-10{
+     grid-area:frame-10;
+    
+}
+
+#pic-11{
+     grid-area:frame-11;
+    
+}
+
+#pic-12{
+     grid-area:frame-12;
+    
+}
+
+#left-content{
+
+    margin:5px;
+    padding:5px;
+    
+}
+#right-content{
+    
+    margin-right:1.5%;
+    padding:0%;
+}
+
+.content{
+    color:white;
+    font-size:0.85rem;
+}
+
+
+}
+
+
+/* Responsiveness on width: 435px */
+@media only screen and (max-width:435px){
+    *{
+        max-width:100%;
+    }
+    .pic-container{
+
+    /* border:2px solid yellow; */
+    
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12,1fr);
+    gap:0;
+
+    grid-template-areas:
+    "frame-1"
+    "frame-2"
+    "frame-3"
+    "frame-4"
+    "frame-5"
+    "frame-6"
+    "frame-7"
+    "frame-8"
+    "frame-9"
+    "frame-10"
+    "frame-11"
+    "frame-12"
+}
+#pic-01{
+     grid-area:frame-1;
+    
+}
+
+#pic-02{
+     grid-area:frame-2;
+    
+}
+
+#pic-03{
+     grid-area:frame-3;
+    
+}
+
+#pic-04{
+     grid-area:frame-4;
+    
+}
+
+#pic-05{
+     grid-area:frame-5;
+    
+}
+
+#pic-06{
+     grid-area:frame-6;
+    
+}
+
+#pic-07{
+     grid-area:frame-7;
+    
+}
+
+#pic-08{
+     grid-area:frame-8;
+    
+}
+
+#pic-09{
+     grid-area:frame-9;
+    
+}
+
+#pic-10{
+     grid-area:frame-10;
+    
+}
+
+#pic-11{
+     grid-area:frame-11;
+    
+}
+
+#pic-12{
+     grid-area:frame-12;
+    
+}
+
+    #left-content{
+
+    margin:2px;
+    padding:2px;
+    
+}
+#right-content{
+    
+    margin-right:0.5%;
+    padding:0%;
+}
+
+.content{
+    color:white;
+    font-size:0.72rem;
+}
+
+
+
+    }
+
+@media only screen and (max-width:380px){
+    footer{
+        display:none;
+    }
+}    
+

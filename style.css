@@ -1,0 +1,158 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+
+.container{
+     margin-left:65px;
+     margin-right:65px;
+}
+
+.img-pic{
+    /* border:1px solid red; */
+    width:100%;
+    height:100%;
+    object-fit:contain;   
+}
+
+.div-pic{
+        max-width:100%;
+        max-height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+} 
+
+.pic-container{
+
+    /* border:2px solid yellow; */
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:0;
+
+    grid-template-areas:
+    "frame-1 frame-2 frame-3"
+    "frame-4 frame-5 frame-6"
+    "frame-7 frame-8 frame-9"
+    "frame-10 frame-11 frame-12"
+    
+}
+#pic-01{
+     grid-area:frame-1;
+    
+}
+
+#pic-02{
+     grid-area:frame-2;
+    
+}
+
+#pic-03{
+     grid-area:frame-3;
+    
+}
+
+#pic-04{
+     grid-area:frame-4;
+    
+}
+
+#pic-05{
+     grid-area:frame-5;
+    
+}
+
+#pic-06{
+     grid-area:frame-6;
+    
+}
+
+#pic-07{
+     grid-area:frame-7;
+    
+}
+
+#pic-08{
+     grid-area:frame-8;
+    
+}
+
+#pic-09{
+     grid-area:frame-9;
+    
+}
+
+#pic-10{
+     grid-area:frame-10;
+    
+}
+
+#pic-11{
+     grid-area:frame-11;
+    
+}
+
+#pic-12{
+     grid-area:frame-12;
+    
+}
+
+footer{
+    margin-left: 65px;
+    margin-right: 65px;
+    /* width: 100%; */
+    height: 45px;
+    background-color:#505051;
+    
+    }
+
+.footer-class{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left-content{
+
+    margin:10px;
+    padding:10px;
+    
+}
+#right-content{
+    
+    margin-right:3%;
+    padding:0%;
+}
+
+.content{
+    color:white;
+    font-size:1rem;
+}
+
+
+/* .footer-class ul{
+    display:flex;
+}    
+.footer-class ul li{
+    list-style:none;
+    
+}
+.footer-class ul li a{
+    display:inline-block;
+    padding:6px;
+    margin:30px;
+    text-decoration:none;
+    color:white;
+    border:2px solid red;
+}
+#right-content{
+position:relative;
+right:10px;
+    
+} */
